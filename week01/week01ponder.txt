@@ -1,0 +1,55 @@
+# 01 Ponder : Weekly Reflection
+
+1. Describe one challenge your team experienced working on the Hello World activity.
+Coming from C++, it was a little difficult transitioning to Java syntax.
+
+
+
+2. For the NSA Cryptography assignment, what did you learn about how Java parameter passing differs from C++?
+I learned that Java only passes by value. 
+
+
+
+3. Did you complete the Stretch Challenge for the NSA Cryptography? If so, briefly describe what you did, and how you structured your code.
+I completed the Stretch Challenge. I added an IF statement at the beginning of hashUserPassword() that checks if the user's password is 
+valid. (At least 8 characters and at least one digit).
+
+
+4. What did you learn from comparing your code to the teacher's solution?
+I learned that I could have used regular expressions to check if the password has a number in it.
+
+
+5. After completing the assignments this week, what questions do you still have?
+I don't have any specific questions yet. I am still getting used to using Java. As I continue to familiarize myself with Java, I will 
+have more questions.
+
+
+6. If you were getting paid to work on this week's Prove assignment and you had another month to work on it, what would you add?
+I would add a username to the User class and a way to verify that each new username doesn't conflict with existing usernames.
+
+
+7. A common Java interview question is "What are javadocs and when should they be used?". How would you answer that question?
+Javadocs provide documentation of what a class is and how it should be used. Many developers have different opinions on 
+when Javadocs should be used. Generally, a Javadoc should be used for every class and for every method that will be used by
+anyone who didn't write the code.
+
+
+8. Of all of the resources in this week's Preparation assignment, which was the _most_ helpful to you and why?
+The resources that helped the most were the links to stack overflow and other websites that described Java syntax for 
+various situations.
+
+
+9. Of all of the resources in this week's Preparation assignment, which was the _least_ helpful to you and why?
+The least helpful resources were the videos about how to install the IDE. I only say this because I didn't watch the videos.
+
+
+
+10. How many hours did you spend on this class this week?
+
+01 Prepare - 1
+01 Teach - 2
+01 Prove 1st Attempt - 2
+01 Prove 2nd Attempt - 0
+01 Ponder - 1
+----------------------------
+Total Hours - 6 
