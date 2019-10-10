@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3ea2a062-660c-4852-bc6c-100f60ad1741" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../week02/Battleship/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week02/Battleship/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week02/Battleship/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week02/Battleship/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week02/Battleship/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week02/Battleship/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week02/Battleship/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week02/Battleship/Battleship.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week02/Battleship/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week02/GameOfLife/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week02/GameOfLife/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week02/GameOfLife/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week02/GameOfLife/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week02/GameOfLife/GameOfLife.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week02/GameOfLife/project/project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week02/GameOfLife/src/prove02/Spawner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week02/GameOfLife/src/prove02/ToxicWeed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week02/GameOfLife/src/prove02/Wolf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week02/GameOfLife/src/prove02/Zombie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week02/Weather/Weather.iml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\caleb\Documents\programming\cs246\week03\team03\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RfOEInz6toekdKz3BYjPAm4x4N" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ea2a062-660c-4852-bc6c-100f60ad1741" name="Default Changelist" comment="" />
+      <created>1570054570060</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570054570060</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

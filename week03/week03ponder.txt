@@ -1,0 +1,53 @@
+# 03 Ponder : Weekly Reflection
+
+1. Describe one challenge your team experienced working on the JSON parsing activity.
+It was difficult adding GSON to the project. After some trial and error, I was able to do it.
+
+
+2. For the Prove API assignment, what did you learn about how APIs work?
+I learned that APIs send data through HTTP requests. The apps that use the APIs then process the data into a user-readable format.
+
+
+3. Did you complete the Stretch Challenge for the Prove API Assignment? If so, briefly describe which method you used.
+I made a class called CityInfo that had three variables: name, maxTemp, and maxWindSpeed. The data from the API was 
+received and placed in a class, WeatherForecast. Then, a loop went through and found the maxTemp and maxWindSpeed for each
+city. A CityInfo object was then created with the data that was found and added to a list. The list was then sorted using two 
+methods; one that sorted by maxTemp and another that sorted by maxWindSpeed. The methods used were implementations of the Collection
+interface.
+
+
+4. What did you learn from comparing your code to the teacher's solution?
+There was a slightly easier way to perform the sort. I created a spearate file with a class specifically to perform the sort.
+The instructor used a function in the same file after a keyword @Override. This looks cleaner and simpler than my solution.
+
+
+5. After completing the assignments this week, what questions do you still have?
+Is the @Override keyword similar to overloading functions in C++?
+
+
+6. Aside from the task you completed, what is another use you could see for the API we used?
+Someone could use this to get daily updates about the weather, similar to other apps available.
+
+
+7. A common Java interview question is "Describe what an API is and how it's used". (Sometimes people refer to these types of APIs as "REST APIs") How would you answer that question?
+An API is an application that sends data upon request. Developers can use APIs for different purposes. The Open Weather Map API, for
+example, sends data about the weather in a certain city.
+
+
+8. Of all of the resources in this week's reading, which was the _most_ helpful to you and why?
+The GSON tutorials were very helpful in explaining how to use GSON. It was very informative and straightforward.
+
+
+9. Of all of the resources in this week's reading, which was the _least_ helpful to you and why?
+It was all helpful. I learned a lot from the reading.
+
+
+10. How many hours did you spend on this class this week?
+
+01 Prepare - 1 hour
+01 Teach - 2 hours
+01 Prove 1st Attempt - 5 hours
+01 Prove 2nd Attempt - 0 hours 
+01 Ponder - 1 hour
+----------------------------
+Total Hours - 9 hours

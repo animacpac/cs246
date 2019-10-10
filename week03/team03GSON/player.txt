@@ -1,0 +1,1 @@
+{"name":"\u003cname\u003e","health":20,"mana":10,"gold":50}

@@ -1,0 +1,56 @@
+# 02 Ponder : Weekly Reflection
+
+1. Describe one challenge your team experienced working on the Vacation Calendar activity.
+One challenge I had was understanding the purpose and benefit of using interfaces instead of classes. I realized that it is very beneficial 
+because an object can be refferenced through it interface (for example, making a list of different objects that share the same interface).
+
+
+2. For the Game of Life assignment, what advantages do you see in using interfaces to define creature behaviors, rather than subclasses?
+One advantage was that it wasn't hard to understand which class inherited what. It was also easy to program behaviors for creatures with a 
+certain interface, and have that behavior also apply to new creatures that were added with the same interface.
+
+
+3. Did you complete the Stretch Challenge for the Game of Life Assignment? If so, briefly describe what you did, and how you structured your code.
+I created a ToxicWeed class that implemented the aggressor and spawnable interfaces. Whenever a wolf or an animal collided with the ToxicWeed,
+they would die and a ToxicWeed would spawn in a nearby square.
+
+4. What did you learn from comparing your code to the teacher's solution?
+I saw some more efficent ways to complete similar tasks. For example, in the Spawner interface, I had two functions. One to spawn the
+creature, and another to check if the creature was able to spawn. The instructor's solution had a better way to solve that particular
+problem with less functions and more readable code.
+
+
+5. After completing the assignments this week, what questions do you still have?
+I don't currently have any questions.
+
+
+6. If you were getting paid to work on this week's Prove assignment and you had another month to work on it, what would you add?
+If I had another month to wrk on this, I would add more classes, more behaviors, and more shapes. This concept has limitless capabilities. 
+The game can be turned into a working organism, and that would be really cool to see.
+
+
+7. A common Java interview question is "describe the difference between an interface and an abstract class". How would you answer that question?
+An abstract class contains both methods and variables. Some of the methods are defined, while others are not. This class can be inherited
+by other classes that perform a similar function.
+An interface is a list of at least one method. The methods all relate to the purpose of the interface. Interfaces are not inherited, but are
+implemented by different classes. Each class that implements the same interface may have different purposes, but share similar behaviors.
+
+
+8. Of all of the resources in this week's Preparation assignment, which was the _most_ helpful to you and why?
+The resource that helped me most was the video about interfaces. It showed a siple example of how interfaces are useful
+and how they are applied.
+
+
+9. Of all of the resources in this week's Preparation assignment, which was the _least_ helpful to you and why?
+The least helpful resources were the links to the stackoverflow questions. It was hard to understand the question and the answer.
+
+
+10. How many hours did you spend on this class this week?
+
+02 Prepare - 1
+02 Teach - 3
+02 Prove 1st Attempt - 4
+02 Prove 2nd Attempt - 0
+02 Ponder - 0.5
+----------------------------
+Total Hours - 8.5
