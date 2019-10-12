@@ -25,6 +25,7 @@ public class World extends Canvas implements Runnable  {
 	Dimension _world;
 	Dimension _cell;
 	int _totalStartingCreatures;
+<<<<<<< HEAD
 	//Define star coordinates
 
 	int starX[] = {-3, -1,  0,  1,  3,  1,  2,  0, -2, -1, -3};
@@ -34,6 +35,9 @@ public class World extends Canvas implements Runnable  {
 	int [] starY = {38,62,68,80,105,85,102,75,58,20,38};
 	*/
 
+=======
+	
+>>>>>>> dc45eb6b31fb64c60d43b2f2f6f58c83b443eb19
 	CreatureHandler _handler;
 	
 	/**
@@ -152,9 +156,12 @@ public class World extends Canvas implements Runnable  {
 				case Square:
 					context.fillRect(x, y, _cell.width, _cell.height);
 					break;
+<<<<<<< HEAD
 				case Star:
 					context.fillPolygon(starX, starY, 11);
 					break;
+=======
+>>>>>>> dc45eb6b31fb64c60d43b2f2f6f58c83b443eb19
 				default:
 					break;
 			}

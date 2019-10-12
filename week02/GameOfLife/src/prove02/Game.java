@@ -35,6 +35,7 @@ public class Game {
 			Animal a = new Animal();
 			creatures.add(a);
 		}
+<<<<<<< HEAD
 
 		// Add some zombies
 		for (int i = 0; i < 10; i++) {
@@ -53,6 +54,8 @@ public class Game {
 			ToxicWeed t = new ToxicWeed();
 			creatures.add(t);
 		}
+=======
+>>>>>>> dc45eb6b31fb64c60d43b2f2f6f58c83b443eb19
 		
 		// Create the world
 		_theWorld = new World(creatures);

@@ -56,7 +56,11 @@ public class Animal extends Creature implements Movable, Aggressor {
 	* Move the animal in a random direction.
 	*/
 	public void move() {
+<<<<<<< HEAD
 
+=======
+		
+>>>>>>> dc45eb6b31fb64c60d43b2f2f6f58c83b443eb19
 		// Choose a random direction each time move() is called.
 		switch(_rand.nextInt(4)) {
 			case 0:

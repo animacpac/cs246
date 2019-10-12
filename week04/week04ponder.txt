@@ -1,0 +1,56 @@
+# 04 Ponder : Weekly Reflection
+
+1. Describe one challenge your team experienced working on the GitHub activity.
+This week's activity was very straightforward and we didn't have much difficulty completing it.
+
+
+2. What are the advantages to using a version control system like git?
+It makes it easy for us all to work on the project remotely. Because we all live in completely
+different states, we cannot meet in person to look over the code. By sharing the code with git,
+we can easily collaborate without having to meet in person.
+
+
+3. What is the difference between git and GitHub?
+Git is the type of version control we are using, while GitHub is a website that allows people to 
+use git by hosting remote git repositories.
+
+
+4. What is the purpose of branching in git?
+Branching allows for a user to work on their own version of the code separate from the main branch
+so that they can work on it without worrying about breaking the main branch. THen, when it works, they can
+merge the branches back together.
+
+
+
+5. Imagine you're working as a software developer for someone who doesn't have any experience with programming. How would you describe version control and git to your employer?
+Git is a way for software developers to organize their work and collaborate with each other remotely.
+Everyone working on the project has access to the files and can edit existing files and add their own.
+
+
+6. After completing the assignments this week, what questions do you still have?
+I don't currently have any questions. I have used git before in past semesters, so I am already familiar
+with how it works.
+
+
+7. A common git-related interview question is "How do you revert a commit that has already been pushed and made public?". How would you answer that question?
+To revert a commit, I would use this command: git revert <commit-hash>, where the commit hash is the hash of the commit the I want to revert. I would then 
+push the changes to the remote repository.
+
+
+8. Of all of the resources and tutorials in this week's assignments, which was the _most_ helpful to you and why?
+I liked the learngitbreanching tutorials. They were very useful in understanding how to use git.
+
+
+
+9. Of all of the resources and tutorials in this week's assignments, which was the _least_ helpful to you and why?
+The katakoda tutorials were a little hard to understand at some points.
+
+
+10. How many hours did you spend on this class this week?
+
+04 Prepare - 1
+04 Teach - 1
+04 Prove - 3
+04 Ponder - 1
+----------------------------
+Total Hours - 6

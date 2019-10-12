@@ -1,6 +1,9 @@
 package prove02;
 
+<<<<<<< HEAD
 import java.util.ArrayList;
+=======
+>>>>>>> dc45eb6b31fb64c60d43b2f2f6f58c83b443eb19
 import java.util.Random;
 import java.awt.Point;
 import java.util.List;
@@ -120,7 +123,10 @@ public class CreatureHandler
 		// Handle all our creature behaviors here. Since we don't know ahead of time
 		// which creatures implement which behaviors, we can use the instanceof keyword
 		// to see if a given instance implements a particular interface.
+<<<<<<< HEAD
 		List<Creature> addedCreatures = new ArrayList<Creature>();
+=======
+>>>>>>> dc45eb6b31fb64c60d43b2f2f6f58c83b443eb19
 		for(Creature c : _creatures) {
 				
 				// Skip dead creatures
@@ -146,6 +152,7 @@ public class CreatureHandler
 					Aggressor a = (Aggressor)c;
 					a.attack(target);
 				}
+<<<<<<< HEAD
 
 				if(c instanceof Spawner) {
 					Spawner s = (Spawner)c;
@@ -162,5 +169,9 @@ public class CreatureHandler
 			_creatures.add(c);
 		}
 		addedCreatures.clear();
+=======
+				
+			}
+>>>>>>> dc45eb6b31fb64c60d43b2f2f6f58c83b443eb19
 	}
 }
