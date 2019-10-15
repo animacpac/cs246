@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     Button submitButton;
 
+    public static final String EXTRA_MESSAGE = "com.example.scripturepicker.MESSAGE";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,7 +49,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void displayScripture() {
-        Intent intent = new Intent(this,DisplayScripture.class);
-        intent.putExtra(scripture);
+        Intent intent = new Intent(this, DisplayScriptureActivity.class);
+        intent.putExtra(EXTRA_MESSAGE, scripture);
+        startActivity(intent);
     }
 }
