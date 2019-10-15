@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -12,8 +13,8 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     String book;
-    int chapter;
-    int verse;
+    String chapter;
+    String verse;
 
     String scripture;
 
@@ -23,7 +24,10 @@ public class MainActivity extends AppCompatActivity {
 
     Button submitButton;
 
-    public static final String EXTRA_MESSAGE = "com.example.scripturepicker.MESSAGE";
+    public static final String SEND_BOOK = "com.example.scripturepicker.SEND_BOOK";
+    public static final String SEND_CHAPTER = "com.example.scripturepicker.SEND_CHAPTER";
+    public static final String SEND_VERSE = "com.example.scripturepicker.SEND_VERSE";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,10 +42,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 book = bookInput.getText().toString();
-                chapter = Integer.valueOf(chapterInput.getText().toString());
-                verse = Integer.valueOf(verseInput.getText().toString());
-
-                scripture = book + " " + chapter + ":" + verse;
+                chapter = chapterInput.getText().toString();
+                verse = verseInput.getText().toString();
 
                 displayScripture();
             }
@@ -49,8 +51,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void displayScripture() {
+        Log.d("DEBUG", "About to create scripture intent");
         Intent intent = new Intent(this, DisplayScriptureActivity.class);
-        intent.putExtra(EXTRA_MESSAGE, scripture);
+        intent.putExtra(SEND_BOOK, book);
+        intent.putExtra(SEND_CHAPTER, chapter);
+        intent.putExtra(SEND_VERSE, verse);
         startActivity(intent);
     }
 }

@@ -6,15 +6,43 @@
     android:layout_height="match_parent"
     tools:context=".DisplayScriptureActivity">
 
-    <TextView
-        android:id="@+id/scripture"
-        android:layout_width="206dp"
-        android:layout_height="54dp"
-        android:layout_marginTop="200dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginRight="100dp"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:gravity="center"
+    <LinearLayout
+        android:layout_width="298dp"
+        android:layout_height="302dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginRight="57dp"
+        android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/scripture"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="72dp"
+            android:layout_marginRight="0dp"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <Button
+            android:id="@+id/saveScripture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Scripture" />
+
+        <Button
+            android:id="@+id/loadScripture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Load Scripture" />
+
+        <TextView
+            android:id="@+id/loadedScripture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
