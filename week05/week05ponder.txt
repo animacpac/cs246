@@ -1,0 +1,48 @@
+# 05 Ponder : Weekly Reflection
+
+1. Describe one challenge your team experienced working on the Android activity.
+One challenge we had was getting used to using Android Studio. The program was unfamiliar at first,
+but after a little bit we were able to get used to it.
+
+
+2. What is the difference between an Activity and an Intent?
+An Activity is a screen of an app. An intent is what allows an activity to call another one.
+
+
+3. Describe how the onCreate() callback works.
+The oncreate() callback is the function that gets called when an activity starts.
+
+
+4. What's the biggest challenge you've experienced regarding Android development compared to pure Java development?
+The biggest challenge is trying to connect the Java code to the XML code for the layout of the app.
+
+
+5. After completing the assignments this week, what questions do you still have?
+I can't think of any questions right now.
+
+
+6. A common Android-related interview question is "What's the difference between onPause() and onDestroy() and what kinds of things might you do in those functions?". How would you answer that question?
+The function onPause() is called when the user navigates to another app without closing the first one. 
+Some things that might be included in this function would be saving the user's place in the app so that
+when the user navigates back to the app it will look like they never left, and allow for the app to not crash 
+while the user is away.
+The function onDestroy() is called when the user closes the app. Some things that might be included
+in this function would be ways to safely save the user's progress so that they can come back to the app later.
+
+
+7. Of all of the resources and tutorials in this week's assignments, which was the _most_ helpful to you and why?
+The articles on developer.android.com were very helpful. They were very clear about this week's material.
+
+
+8. Of all of the resources and tutorials in this week's assignments, which was the _least_ helpful to you and why?
+They all helped.
+
+
+9. How many hours did you spend on this class this week?
+
+05 Prepare - 1
+05 Teach - 1
+05 Prove - 5
+05 Ponder - 1
+----------------------------
+Total Hours - 8

@@ -22,7 +22,7 @@ public class Main {
 
     private static String getURLString(String url) {
         String city = getCity();
-        String key = "acff1addaf9d132dd11b199e618f0083";
+        String key = "";
         String units = "imperial";
         String query = url + city + "&units=" + units + "&apiKey=" + key;
 
