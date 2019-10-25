@@ -1,4 +1,4 @@
-package com.company;
+package com.example.prove06;
 
 import java.util.List;
 import java.util.Map;

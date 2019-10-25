@@ -1,4 +1,4 @@
-package com.company;
+package com.example.prove06;
 
 import com.google.gson.annotations.SerializedName;
 
